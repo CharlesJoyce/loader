@@ -1,1 +1,193 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T08:41:58.969Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.5.8" etag="WvlAZrqQGft9OU-3aIq9" type="github"><diagram id="Up1Tz3Nqr01XDBwqKI9M">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-09T09:47:41.031Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="FEbnhZKehTGzvt_nDm0u" version="14.5.8" type="github">
+  <diagram id="Up1Tz3Nqr01XDBwqKI9M" name="Page-1">
+    <mxGraphModel dx="788" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-4" value="某工具发送" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-2" target="o22o1Z7qs1bX_3RGaiyK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-2" value="面向产品以上层，设计师输出设计稿" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-14" value="未通过需修订" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-3" target="o22o1Z7qs1bX_3RGaiyK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="410" />
+              <mxPoint x="520" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-21" value="通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-3" target="o22o1Z7qs1bX_3RGaiyK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-3" value="老板、产品经理评审" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-24" value="主动或被动发现需要微调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-10" target="o22o1Z7qs1bX_3RGaiyK-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="660" />
+              <mxPoint x="520" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-10" target="o22o1Z7qs1bX_3RGaiyK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-10" target="o22o1Z7qs1bX_3RGaiyK-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-10" value="开发者SVN客户端从仓库下载&lt;br&gt;&lt;font color=&quot;#ff450d&quot;&gt;技术预研排期评审可行性和切图细节问题&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-22" value="SVN客户端上传SVN仓库" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-20" target="o22o1Z7qs1bX_3RGaiyK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-20" value="面向开发，文件夹&amp;amp;文件准备技术开发“初稿”&lt;b&gt;&lt;font color=&quot;#ff6314&quot;&gt;也切图+标注&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-29" value="发现需要微调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-25" target="o22o1Z7qs1bX_3RGaiyK-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="780" />
+              <mxPoint x="600" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-25" value="开发设计、编码" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-27" value="简单交互在设计师工位或开发工位；复杂交互必要时要开评审会，设计、产品、开发、测试等干系人参与" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="600" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-30" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="979" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-31" value="某工具发送" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-32" target="o22o1Z7qs1bX_3RGaiyK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-32" value="面向产品以上层，设计师输出设计稿" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="979" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-33" value="未通过需修订" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-35" target="o22o1Z7qs1bX_3RGaiyK-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="1149" />
+              <mxPoint x="520" y="1009" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-34" value="通过" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-35" target="o22o1Z7qs1bX_3RGaiyK-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-35" value="老板、产品经理评审" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1109" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-36" value="主动或被动发现需要微调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-39" target="o22o1Z7qs1bX_3RGaiyK-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1269" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="1399" />
+              <mxPoint x="520" y="1279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-39" target="o22o1Z7qs1bX_3RGaiyK-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-39" target="o22o1Z7qs1bX_3RGaiyK-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-39" value="开发者SVN客户端从仓库下载&lt;br&gt;&lt;font color=&quot;#ff3f0f&quot;&gt;技术预研排期评审可行性和切图要求&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1359" width="80" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-40" value="SVN客户端上传SVN仓库" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-41" target="o22o1Z7qs1bX_3RGaiyK-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-41" value="面向开发，文件夹&amp;amp;文件准备技术开发“初稿”&lt;b&gt;&lt;font color=&quot;#ff2a12&quot;&gt;暂不切图+标注&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-42" value="发现需要微调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-43" target="o22o1Z7qs1bX_3RGaiyK-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1279" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="1779" />
+              <mxPoint x="600" y="1279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-43" value="开发设计、编码" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1749" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-44" value="简单交互在设计师工位或开发工位；复杂交互必要时要开评审会，设计、产品、开发、测试等干系人参与" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1339" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-45" target="o22o1Z7qs1bX_3RGaiyK-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-45" value="设计师切图上传SVN仓库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1489" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-47" target="o22o1Z7qs1bX_3RGaiyK-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-51" value="f发现需要微调" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="o22o1Z7qs1bX_3RGaiyK-47" target="o22o1Z7qs1bX_3RGaiyK-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1519" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="1649" />
+              <mxPoint x="490" y="1519" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-47" value="技术评审切图细节问题" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1609" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-53" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1329" as="sourcePoint" />
+            <mxPoint x="265" y="1289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-54" value="微信等工具知会，&lt;br&gt;可带SVN路径或路径截图。&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;不用发文件，&lt;br&gt;不会搞乱版本，不会乱占磁盘&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="240" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-55" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="585" as="sourcePoint" />
+            <mxPoint x="265" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-56" value="" style="endArrow=none;dashed=1;html=1;exitX=0.85;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="o22o1Z7qs1bX_3RGaiyK-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="1288.98" as="sourcePoint" />
+            <mxPoint x="520" y="1429" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-57" value="微信等工具知会，&lt;br&gt;可带SVN路径或路径截图。&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;不用发文件，&lt;br&gt;不会搞乱版本，不会乱占磁盘&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1164" width="240" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-58" value="流程场景1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="84" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-59" value="流程场景2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="358" y="919" width="84" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-60" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1550" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-61" value="不久之后会尝试设计稿自动生成代码工具，&lt;br&gt;需要再请设计师配合按工具规范调整图层上传Sketch源文件&lt;br&gt;敬请期待" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=18;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="162" y="1920" width="480" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
