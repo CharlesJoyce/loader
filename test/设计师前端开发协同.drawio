@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T09:51:30.839Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="sLmyXBiCv1U2aR7kXbKV" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-09T09:52:01.982Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Rj33rMerk-lPsSOkduO6" version="14.5.8" type="github">
   <diagram id="Up1Tz3Nqr01XDBwqKI9M" name="Page-1">
     <mxGraphModel dx="788" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,8 +184,8 @@
         <mxCell id="o22o1Z7qs1bX_3RGaiyK-60" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="310" y="1550" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="o22o1Z7qs1bX_3RGaiyK-61" value="不久之后会尝试设计稿自动生成代码工具，&lt;br&gt;需要再请设计师配合按工具规范调整图层上传Sketch源文件&lt;br&gt;敬请期待" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=18;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="162" y="1920" width="480" height="70" as="geometry" />
+        <mxCell id="o22o1Z7qs1bX_3RGaiyK-61" value="不久之后会尝试设计稿自动生成代码工具，&lt;br&gt;需要再请设计师配合按工具规范调整图层同时上传Sketch源文件&lt;br&gt;敬请期待" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=18;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="142" y="1920" width="520" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
